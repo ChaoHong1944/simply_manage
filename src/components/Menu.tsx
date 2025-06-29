@@ -14,20 +14,20 @@ const menuItems = [
       },
       {
         icon: "/teacher.png",
-        label: "Teachers",
-        href: "/list/teachers",
+        label: "Mates",
+        href: "/list/mates",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/student.png",
-        label: "Students",
-        href: "/list/students",
+        label: "Crew Members",
+        href: "/list/crewmembers",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/parent.png",
-        label: "Parents",
-        href: "/list/parents",
+        label: "Section Leaders",
+        href: "/list/sectionleaders",
         visible: ["admin", "teacher"],
       },
       {
